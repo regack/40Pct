@@ -1,7 +1,6 @@
-40Pct
+JDCarpe's 40% Board
 =====
-
-JDCarpe's 40% Board2012.03.02
+2012.03.02
 - v1.0
 - Initial revision
 - Switch placement

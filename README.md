@@ -1,3 +1,5 @@
+
+
 JDCarpe's 40% Board
 =====
 2012.03.02
@@ -25,3 +27,9 @@ JDCarpe's 40% Board
 2012.03.05
 - v1.3
 - Removed unused Libs and Mods
+
+2012.03.07
+- v1.4
+- Fixed Switch footprints missing central NPTH drill hole
+- Rerouted traces that were impacted by the missing drill hole footprints
+

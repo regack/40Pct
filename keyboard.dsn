@@ -1,4 +1,4 @@
-(pcb H:\KBD\JDCarpe_v1.2\keyboard.dsn
+(pcb H:\KBD\JDCarpe40pct\v1.4\keyboard.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -138,18 +138,18 @@
     (component RESISTOR
       (place R4 143764 -121793 front 270 (PN 300))
     )
-    (component CHERRY_PCB_175H_NoPins
+    (component CHERRY_PCB_175H_NP
       (place S03:1 132842 -121920 front 0 (PN MX1A))
       (place S02:11 328168 -102870 front 0 (PN MX1A))
     )
-    (component CHERRY_PCB_125H_NoPins
+    (component CHERRY_PCB_125H_NP
       (place S02:1 128143 -102870 front 0 (PN MX1A))
       (place S04:11 332905 -140970 front 0 (PN MX1A))
       (place S04:1 128080 -140970 front 0 (PN MX1A))
       (place S04:10 309118 -140970 front 0 (PN MX1A))
       (place S03:10 313754 -121920 front 0 (PN MX1A))
     )
-    (component CHERRY_PCB_100H_NoPins
+    (component CHERRY_PCB_100H_NP
       (place S01:3 163830 -83820 front 0 (PN MX1A))
       (place S01:8 259080 -83820 front 0 (PN MX1A))
       (place S01:10 297180 -83820 front 0 (PN MX1A))
@@ -183,7 +183,7 @@
       (place S01:12 335280 -83820 front 0 (PN MX1A))
       (place S03:11 335280 -121920 front 0 (PN MX1A))
     )
-    (component CHERRY_PCB_625H_NoPins
+    (component CHERRY_PCB_625H_NP
       (place S04:6 237414 -141351 front 0 (PN MX1A))
     )
   )
@@ -317,7 +317,7 @@
       (pin Round[A]Pad_1651_um 1 -5080 0)
       (pin Round[A]Pad_1651_um 2 5080 0)
     )
-    (image CHERRY_PCB_175H_NoPins
+    (image CHERRY_PCB_175H_NP
       (outline (path signal 152.4  -6350 6350  6350 6350))
       (outline (path signal 152.4  6350 6350  6350 -6350))
       (outline (path signal 152.4  6350 -6350  -6350 -6350))
@@ -340,8 +340,10 @@
       (outline (path signal 152.4  -6985 -6985  -6985 6985))
       (pin Round[A]Pad_2286_um 1 2540 5080)
       (pin Round[A]Pad_2286_um 2 -3810 2540)
+      (keepout "" (circle Front 3987.8))
+      (keepout "" (circle Back 3987.8))
     )
-    (image CHERRY_PCB_125H_NoPins
+    (image CHERRY_PCB_125H_NP
       (outline (path signal 152.4  -6350 6350  6350 6350))
       (outline (path signal 152.4  6350 6350  6350 -6350))
       (outline (path signal 152.4  6350 -6350  -6350 -6350))
@@ -364,8 +366,10 @@
       (outline (path signal 152.4  -6985 -6985  -6985 6985))
       (pin Round[A]Pad_2286_um 1 2540 5080)
       (pin Round[A]Pad_2286_um 2 -3810 2540)
+      (keepout "" (circle Front 3987.8))
+      (keepout "" (circle Back 3987.8))
     )
-    (image CHERRY_PCB_100H_NoPins
+    (image CHERRY_PCB_100H_NP
       (outline (path signal 152.4  -6350 6350  6350 6350))
       (outline (path signal 152.4  6350 6350  6350 -6350))
       (outline (path signal 152.4  6350 -6350  -6350 -6350))
@@ -388,8 +392,10 @@
       (outline (path signal 152.4  -6985 -6985  -6985 6985))
       (pin Round[A]Pad_2286_um 1 2540 5080)
       (pin Round[A]Pad_2286_um 2 -3810 2540)
+      (keepout "" (circle Front 3987.8))
+      (keepout "" (circle Back 3987.8))
     )
-    (image CHERRY_PCB_625H_NoPins
+    (image CHERRY_PCB_625H_NP
       (outline (path signal 152.4  -6350 6350  6350 6350))
       (outline (path signal 152.4  6350 6350  6350 -6350))
       (outline (path signal 152.4  6350 -6350  -6350 -6350))
@@ -414,6 +420,8 @@
       (outline (path signal 152.4  6985 -2159  6985 -6858))
       (pin Round[A]Pad_2286_um 1 2540 5080)
       (pin Round[A]Pad_2286_um 2 -3810 2540)
+      (keepout "" (circle Front 3987.8))
+      (keepout "" (circle Back 3987.8))
     )
     (padstack Round[A]Pad_1407.16_um
       (shape (circle Front 1407.16))

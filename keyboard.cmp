@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-02-13 BZR 3947)-testing date = 3/4/2013 4:39:20 PM
+Cmp-Mod V01 Created by CvPcb (2013-02-13 BZR 3947)-testing date = 3/7/2013 8:49:26 AM
 
 BeginCmp
 TimeStamp = /4F60E920/506B5923;
@@ -620,280 +620,280 @@ BeginCmp
 TimeStamp = /4F60E920/5040DD75;
 Reference = S01:1;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DD84;
 Reference = S01:2;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DD93;
 Reference = S01:3;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DDA2;
 Reference = S01:4;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DDAF;
 Reference = S01:5;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DDB5;
 Reference = S01:6;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DDBB;
 Reference = S01:7;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DDC1;
 Reference = S01:8;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DDC7;
 Reference = S01:9;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DDCD;
 Reference = S01:10;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DDD3;
 Reference = S01:11;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DDD9;
 Reference = S01:12;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DDF7;
 Reference = S02:1;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_125H_NoPins;
+IdModule  = CHERRY_PCB_125H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DDFD;
 Reference = S02:2;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DE03;
 Reference = S02:3;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DE09;
 Reference = S02:4;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DE0F;
 Reference = S02:5;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DE15;
 Reference = S02:6;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DE1B;
 Reference = S02:7;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DE21;
 Reference = S02:8;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DE27;
 Reference = S02:9;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DE2D;
 Reference = S02:10;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DE33;
 Reference = S02:11;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_175H_NoPins;
+IdModule  = CHERRY_PCB_175H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DE57;
 Reference = S03:1;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_175H_NoPins;
+IdModule  = CHERRY_PCB_175H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DE5D;
 Reference = S03:2;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DE63;
 Reference = S03:3;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DE69;
 Reference = S03:4;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DE6F;
 Reference = S03:5;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DE75;
 Reference = S03:6;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DE7B;
 Reference = S03:7;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DE81;
 Reference = S03:8;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DE87;
 Reference = S03:9;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DE8D;
 Reference = S03:10;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_125H_NoPins;
+IdModule  = CHERRY_PCB_125H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DE93;
 Reference = S03:11;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DEB7;
 Reference = S04:1;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_125H_NoPins;
+IdModule  = CHERRY_PCB_125H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DEBD;
 Reference = S04:2;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DEC3;
 Reference = S04:3;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_NoPins;
+IdModule  = CHERRY_PCB_100H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DEDB;
 Reference = S04:6;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_625H_NoPins;
+IdModule  = CHERRY_PCB_625H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DEF3;
 Reference = S04:10;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_125H_NoPins;
+IdModule  = CHERRY_PCB_125H_NP;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60E920/5040DF53;
 Reference = S04:11;
 ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_125H_NoPins;
+IdModule  = CHERRY_PCB_125H_NP;
 EndCmp
 
 BeginCmp

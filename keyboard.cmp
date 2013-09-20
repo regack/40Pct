@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-02-13 BZR 3947)-testing date = 9/17/2013 10:41:13 AM
+Cmp-Mod V01 Created by CvPcb (2013-02-13 BZR 3947)-testing date = 9/20/2013 9:22:54 AM
 
 BeginCmp
 TimeStamp = /4E99B63E;
@@ -570,6 +570,20 @@ EndCmp
 BeginCmp
 TimeStamp = /519005B1/51900792;
 Reference = DB56;
+ValeurCmp = LED;
+IdModule  = MX_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /519005B1/523C5536;
+Reference = DB481;
+ValeurCmp = LED;
+IdModule  = MX_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /519005B1/523C553C;
+Reference = DB531;
 ValeurCmp = LED;
 IdModule  = MX_LED;
 EndCmp
@@ -1265,6 +1279,20 @@ TimeStamp = /4F60E920/5040DDD9;
 Reference = S56;
 ValeurCmp = MX1A;
 IdModule  = CHERRY_PCB_100H_Plated;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F60E920/523C531B;
+Reference = S481;
+ValeurCmp = MX1A;
+IdModule  = CHERRY_PCB_100H_Plated;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F60E920/523C5315;
+Reference = S531;
+ValeurCmp = MX1A;
+IdModule  = CHERRY_PCB_125H_Visible;
 EndCmp
 
 BeginCmp

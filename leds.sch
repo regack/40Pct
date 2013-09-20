@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/13/2013 12:58:59 PM
+EESchema Schematic File Version 2  date 9/20/2013 9:26:55 AM
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -14,7 +14,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
 Title ""
-Date "13 sep 2013"
+Date "20 sep 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -441,9 +441,9 @@ Wire Wire Line
 Wire Wire Line
 	6850 3100 6850 3500
 Wire Wire Line
-	7400 3100 7400 3500
+	7400 3100 7400 3800
 Wire Wire Line
-	7950 3100 7950 3500
+	7950 3100 7950 3800
 Wire Wire Line
 	5200 4250 5200 4650
 Wire Wire Line
@@ -622,4 +622,32 @@ Text Notes 4050 4500 0    60   ~ 0
 SPACEBAR
 Text Notes 5700 4500 0    60   ~ 0
 SPACEBAR
+$Comp
+L LED DB481
+U 1 1 523C5536
+P 7200 3800
+F 0 "DB481" H 7200 3900 50  0000 C CNN
+F 1 "LED" H 7200 3700 50  0000 C CNN
+F 2 "" H 7200 3800 60  0001 C CNN
+F 3 "" H 7200 3800 60  0001 C CNN
+	1    7200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED DB531
+U 1 1 523C553C
+P 7750 3800
+F 0 "DB531" H 7750 3900 50  0000 C CNN
+F 1 "LED" H 7750 3700 50  0000 C CNN
+F 2 "" H 7750 3800 60  0001 C CNN
+F 3 "" H 7750 3800 60  0001 C CNN
+	1    7750 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 7950 3500
+Connection ~ 7400 3500
+Connection ~ 7000 3800
+Connection ~ 7550 3800
+Connection ~ 7950 3800
+Connection ~ 7400 3800
 $EndSCHEMATC

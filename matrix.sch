@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/20/2013 9:26:54 AM
+EESchema Schematic File Version 2  date 9/20/2013 1:35:55 PM
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -516,10 +516,10 @@ col11
 Text HLabel 11300 1400 1    60   3State ~ 0
 col12
 $Comp
-L VCC #PWR032
+L VCC #PWR030
 U 1 1 5043970C
 P 12550 3550
-F 0 "#PWR032" H 12550 3650 30  0001 C CNN
+F 0 "#PWR030" H 12550 3650 30  0001 C CNN
 F 1 "VCC" H 12550 3650 30  0000 C CNN
 F 2 "" H 12550 3550 60  0001 C CNN
 F 3 "" H 12550 3550 60  0001 C CNN

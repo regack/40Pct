@@ -3,10 +3,10 @@ The SmallFry 40% Board
 =====
 2013.10.16
 - v0.6
-- pulled extra pin for ROW5 from ATMEGA pin 8/PB06
+- pulled extra pin for ROW5 from ATMEGA pin 8/PB0
 - changed drills for holes/slots to work with OSHpark 
 - added GPIO4, GPIO5, GPIO6 connectors to ATMEGA pins 26/PD6, 22/PD5, 11/PB3
-- ran row and GPIO to 1.27mm headers on right-side of b^Coard for interconnect (ribbon cable spacing)
+- ran row and GPIO to 1.27mm headers on right-side of board for interconnect (ribbon cable spacing)
 
  
 2013.09.20

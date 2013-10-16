@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-02-13 BZR 3947)-testing date = 9/20/2013 9:22:54 AM
+Cmp-Mod V01 Created by CvPcb (2013-02-13 BZR 3947)-testing date = 10/16/2013 1:37:20 PM
 
 BeginCmp
 TimeStamp = /4E99B63E;
@@ -631,6 +631,41 @@ IdModule  = MX_LED;
 EndCmp
 
 BeginCmp
+TimeStamp = /525ECF55;
+Reference = H1;
+ValeurCmp = HOLE;
+IdModule  = Mechanical_Slotted_Hole;
+EndCmp
+
+BeginCmp
+TimeStamp = /525ED1BE;
+Reference = H2;
+ValeurCmp = HOLE;
+IdModule  = Mechanical_Slot;
+EndCmp
+
+BeginCmp
+TimeStamp = /525ED1C4;
+Reference = H3;
+ValeurCmp = HOLE;
+IdModule  = Mechanical_Slotted_Hole;
+EndCmp
+
+BeginCmp
+TimeStamp = /525ED1CA;
+Reference = H4;
+ValeurCmp = HOLE;
+IdModule  = Mechanical_Slotted_Hole;
+EndCmp
+
+BeginCmp
+TimeStamp = /525ED1D0;
+Reference = H5;
+ValeurCmp = HOLE;
+IdModule  = Mechanical_Slot;
+EndCmp
+
+BeginCmp
 TimeStamp = /4E9998BD;
 Reference = IC1;
 ValeurCmp = ATMEGA32U4;
@@ -648,280 +683,294 @@ BeginCmp
 TimeStamp = /507D1E9B;
 Reference = P1;
 ValeurCmp = MISO;
-IdModule  = pad;
+IdModule  = Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /507D1F7C;
 Reference = P2;
 ValeurCmp = Vcc;
-IdModule  = pad;
+IdModule  = Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /507D1EE6;
 Reference = P3;
 ValeurCmp = SCK;
-IdModule  = pad;
+IdModule  = Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /507D1FC7;
 Reference = P4;
 ValeurCmp = MOSI;
-IdModule  = pad;
+IdModule  = Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /507D1F31;
 Reference = P5;
 ValeurCmp = RES;
-IdModule  = pad;
+IdModule  = Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /507D2012;
 Reference = P6;
 ValeurCmp = GND;
-IdModule  = pad;
+IdModule  = Pad;
 EndCmp
 
 BeginCmp
-TimeStamp = /5136239B;
+TimeStamp = /525EEB31;
 Reference = P7;
-ValeurCmp = GPIO0;
-IdModule  = pad;
+ValeurCmp = ROW1;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
-TimeStamp = /513623A1;
+TimeStamp = /525EEC6C;
 Reference = P8;
-ValeurCmp = GPIO1;
-IdModule  = pad;
+ValeurCmp = ROW2;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
-TimeStamp = /513623A7;
+TimeStamp = /525EEC72;
 Reference = P9;
-ValeurCmp = GPIO2;
-IdModule  = pad;
+ValeurCmp = ROW3;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
-TimeStamp = /51362518;
+TimeStamp = /525EEC78;
 Reference = P10;
-ValeurCmp = GPIO3;
-IdModule  = pad;
+ValeurCmp = ROW4;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
-TimeStamp = /5137B43F;
-Reference = P16;
-ValeurCmp = Vcc;
-IdModule  = pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /5137B445;
-Reference = P17;
-ValeurCmp = GND;
-IdModule  = pad;
+TimeStamp = /525EFFFF;
+Reference = P11;
+ValeurCmp = ROW5;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /51C4E40B;
 Reference = P18;
-ValeurCmp = Row1;
-IdModule  = pad;
+ValeurCmp = LR1;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /51C4E6F7;
 Reference = P19;
-ValeurCmp = Row2;
-IdModule  = pad;
+ValeurCmp = LR2;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /51C4E775;
 Reference = P20;
-ValeurCmp = Row3;
-IdModule  = pad;
+ValeurCmp = LR3;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /51C4E77B;
 Reference = P21;
-ValeurCmp = Row4;
-IdModule  = pad;
+ValeurCmp = LR4;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /51C4EC39;
 Reference = P23;
-ValeurCmp = Col1;
-IdModule  = pad;
+ValeurCmp = LC1;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /51C4F088;
 Reference = P24;
-ValeurCmp = Col2;
-IdModule  = pad;
+ValeurCmp = LC2;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /51C4F106;
 Reference = P25;
-ValeurCmp = Col3;
-IdModule  = pad;
+ValeurCmp = LC3;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /51C4F10C;
 Reference = P26;
-ValeurCmp = Col4;
-IdModule  = pad;
+ValeurCmp = LC4;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /51C4F382;
 Reference = P27;
-ValeurCmp = Col5;
-IdModule  = pad;
+ValeurCmp = LC5;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /51C4F388;
 Reference = P28;
-ValeurCmp = Col6;
-IdModule  = pad;
+ValeurCmp = LC6;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /51C4F38E;
 Reference = P29;
-ValeurCmp = Col7;
-IdModule  = pad;
+ValeurCmp = LC7;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /51C4F394;
 Reference = P30;
-ValeurCmp = Col8;
-IdModule  = pad;
+ValeurCmp = LC8;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /51C4F412;
 Reference = P31;
-ValeurCmp = Col9;
-IdModule  = pad;
+ValeurCmp = LC9;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /51C4F418;
 Reference = P32;
-ValeurCmp = Col10;
-IdModule  = pad;
+ValeurCmp = LC10;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /51C4F41E;
 Reference = P33;
-ValeurCmp = Col11;
-IdModule  = pad;
+ValeurCmp = LC11;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /51C4F424;
 Reference = P34;
-ValeurCmp = Col12;
-IdModule  = pad;
+ValeurCmp = LC12;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /51CD1DED;
 Reference = P37;
 ValeurCmp = Vcc;
-IdModule  = pad;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /51CD1DF3;
 Reference = P38;
 ValeurCmp = GPIO0;
-IdModule  = pad;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /51CD1DF9;
 Reference = P39;
 ValeurCmp = GPIO1;
-IdModule  = pad;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /51CD1DFF;
 Reference = P40;
 ValeurCmp = GPIO2;
-IdModule  = pad;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /51CD1E05;
 Reference = P41;
 ValeurCmp = GPIO3;
-IdModule  = pad;
+IdModule  = Pad_50mil;
+EndCmp
+
+BeginCmp
+TimeStamp = /525F2099;
+Reference = P42;
+ValeurCmp = GPIO2;
+IdModule  = Pad_50mil;
+EndCmp
+
+BeginCmp
+TimeStamp = /525F209F;
+Reference = P43;
+ValeurCmp = GPIO3;
+IdModule  = Pad_50mil;
+EndCmp
+
+BeginCmp
+TimeStamp = /525F57DC;
+Reference = P44;
+ValeurCmp = GPIO6;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /51CD1E0B;
-Reference = P42;
+Reference = P45;
 ValeurCmp = GND;
-IdModule  = pad;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /523207BC;
 Reference = P200;
 ValeurCmp = GND;
-IdModule  = Pad-Gnd;
+IdModule  = Pad_Gnd;
 EndCmp
 
 BeginCmp
 TimeStamp = /52320AF8;
 Reference = P201;
 ValeurCmp = GND;
-IdModule  = Pad-Gnd;
+IdModule  = Pad_Gnd;
 EndCmp
 
 BeginCmp
 TimeStamp = /52320AFE;
 Reference = P202;
 ValeurCmp = GND;
-IdModule  = Pad-Gnd;
+IdModule  = Pad_Gnd;
 EndCmp
 
 BeginCmp
 TimeStamp = /52320B04;
 Reference = P203;
 ValeurCmp = GND;
-IdModule  = Pad-Gnd;
+IdModule  = Pad_Gnd;
 EndCmp
 
 BeginCmp
 TimeStamp = /52334F1D;
 Reference = P204;
 ValeurCmp = GND;
-IdModule  = Pad-Gnd;
+IdModule  = Pad_Gnd;
 EndCmp
 
 BeginCmp
 TimeStamp = /52334F23;
 Reference = P205;
 ValeurCmp = GND;
-IdModule  = Pad-Gnd;
+IdModule  = Pad_Gnd;
 EndCmp
 
 BeginCmp

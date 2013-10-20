@@ -1,6 +1,14 @@
 
 The SmallFry 40% Board
 =====
+
+2013.10.20
+- v0.7
+- cleaned up silkscreens
+- moved 'ROW5' expansion to GPIO7 (still ATMEGA32U4 pin8/PB0)
+- added notes
+- cleaned up and removed extra libs/mods
+
 2013.10.16
 - v0.6
 - pulled extra pin for ROW5 from ATMEGA pin 8/PB0

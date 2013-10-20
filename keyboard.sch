@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/16/2013 1:34:42 PM
+EESchema Schematic File Version 2  date 10/20/2013 8:52:07 AM
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -15,11 +15,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title "ukbdc - schematic"
-Date "16 oct 2013"
-Rev ""
-Comp "komar"
-Comment1 ""
+Title "The SmallFry 40% Keyboard"
+Date "19 oct 2013"
+Rev "0.7"
+Comp "regack"
+Comment1 "jdcarpe"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -1115,14 +1115,14 @@ F 3 "" H 9600 1350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P45
+L CONN_1 P46
 U 1 1 51CD1E0B
-P 9600 1750
-F 0 "P45" H 9680 1750 40  0000 L CNN
-F 1 "GND" H 9600 1805 30  0001 C CNN
-F 2 "" H 9600 1750 60  0001 C CNN
-F 3 "" H 9600 1750 60  0001 C CNN
-	1    9600 1750
+P 9600 1900
+F 0 "P46" H 9680 1900 40  0000 L CNN
+F 1 "GND" H 9600 1955 30  0001 C CNN
+F 2 "" H 9600 1900 60  0001 C CNN
+F 3 "" H 9600 1900 60  0001 C CNN
+	1    9600 1900
 	1    0    0    -1  
 $EndComp
 Entry Wire Line
@@ -1131,7 +1131,7 @@ Entry Wire Line
 	8950 1150 9050 1050
 Entry Wire Line
 	8950 1350 9050 1250
-Text Notes 9900 1700 0    60   ~ 0
+Text Notes 9900 1850 0    60   ~ 0
 Backlight expansion\nconnector (top)
 Text Label 9100 1050 0    50   ~ 0
 GPIO0
@@ -1155,12 +1155,12 @@ $EndComp
 $Comp
 L GND #PWR028
 U 1 1 51CCCE51
-P 9350 1950
-F 0 "#PWR028" H 9350 1950 30  0001 C CNN
-F 1 "GND" H 9350 1880 30  0001 C CNN
-F 2 "" H 9350 1950 60  0001 C CNN
-F 3 "" H 9350 1950 60  0001 C CNN
-	1    9350 1950
+P 9350 2100
+F 0 "#PWR028" H 9350 2100 30  0001 C CNN
+F 1 "GND" H 9350 2030 30  0001 C CNN
+F 2 "" H 9350 2100 60  0001 C CNN
+F 3 "" H 9350 2100 60  0001 C CNN
+	1    9350 2100
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1450 3300
@@ -1456,25 +1456,17 @@ F 3 "" H 7200 3350 60  0001 C CNN
 	1    7200 3350
 	1    0    0    -1  
 $EndComp
-Text Label 6100 4150 2    60   ~ 0
-row5
-Text Label 6650 3450 0    60   ~ 0
-row5
-Entry Wire Line
-	6100 4150 6200 4250
 $Comp
-L CONN_1 P11
+L CONN_1 P45
 U 1 1 525EFFFF
-P 7200 3450
-F 0 "P11" H 7280 3450 40  0000 L CNN
-F 1 "ROW5" H 7200 3505 30  0001 C CNN
-F 2 "" H 7200 3450 60  0001 C CNN
-F 3 "" H 7200 3450 60  0001 C CNN
-	1    7200 3450
+P 9600 1750
+F 0 "P45" H 9680 1750 40  0000 L CNN
+F 1 "GPIO7" H 9600 1805 30  0001 C CNN
+F 2 "" H 9600 1750 60  0001 C CNN
+F 3 "" H 9600 1750 60  0001 C CNN
+	1    9600 1750
 	1    0    0    -1  
 $EndComp
-Entry Wire Line
-	6550 3550 6650 3450
 Text Label 5150 4750 2    50   ~ 0
 GPIO4
 Text Label 5150 4850 2    50   ~ 0
@@ -1488,7 +1480,7 @@ L CONN_1 P42
 U 1 1 525F2099
 P 9600 1450
 F 0 "P42" H 9680 1450 40  0000 L CNN
-F 1 "GPIO2" H 9600 1505 30  0001 C CNN
+F 1 "GPIO4" H 9600 1505 30  0001 C CNN
 F 2 "" H 9600 1450 60  0001 C CNN
 F 3 "" H 9600 1450 60  0001 C CNN
 	1    9600 1450
@@ -1499,7 +1491,7 @@ L CONN_1 P43
 U 1 1 525F209F
 P 9600 1550
 F 0 "P43" H 9680 1550 40  0000 L CNN
-F 1 "GPIO3" H 9600 1605 30  0001 C CNN
+F 1 "GPIO5" H 9600 1605 30  0001 C CNN
 F 2 "" H 9600 1550 60  0001 C CNN
 F 3 "" H 9600 1550 60  0001 C CNN
 	1    9600 1550
@@ -1749,7 +1741,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 6150 4750 6150
 Wire Bus Line
-	5300 4700 5300 6800
+	5300 4250 5300 6800
 Wire Bus Line
 	8950 900  8950 6800
 Wire Bus Line
@@ -1821,9 +1813,9 @@ Wire Wire Line
 Wire Wire Line
 	9350 950  9450 950 
 Wire Wire Line
-	9350 1750 9350 1950
+	9350 1900 9350 2100
 Wire Wire Line
-	9350 1750 9450 1750
+	9350 1900 9450 1900
 Wire Wire Line
 	10850 3050 10850 5850
 Wire Wire Line
@@ -1886,18 +1878,6 @@ Wire Wire Line
 Wire Wire Line
 	6650 3050 7050 3050
 Wire Wire Line
-	6100 4150 5400 4150
-Wire Wire Line
-	5400 4150 5400 4250
-Wire Wire Line
-	5400 4250 5200 4250
-Wire Wire Line
-	5200 4250 5200 4150
-Wire Wire Line
-	5200 4150 4750 4150
-Wire Wire Line
-	7050 3450 6650 3450
-Wire Wire Line
 	5200 4750 4750 4750
 Wire Wire Line
 	4750 4850 5200 4850
@@ -1919,4 +1899,20 @@ Wire Wire Line
 	5400 3850 6100 3850
 Wire Wire Line
 	6700 3550 6650 3550
+Wire Wire Line
+	4750 4150 4850 4150
+Wire Wire Line
+	4850 4150 4850 4200
+Wire Wire Line
+	4850 4200 5200 4200
+Entry Wire Line
+	5200 4200 5300 4300
+Text Label 9100 1750 0    50   ~ 0
+GPIO7
+Wire Wire Line
+	9050 1750 9450 1750
+Entry Wire Line
+	8950 1850 9050 1750
+Text Label 5200 4200 2    50   ~ 0
+GPIO7
 $EndSCHEMATC

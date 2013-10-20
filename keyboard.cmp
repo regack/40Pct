@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-02-13 BZR 3947)-testing date = 10/16/2013 1:37:20 PM
+Cmp-Mod V01 Created by CvPcb (2013-02-13 BZR 3947)-testing date = 10/20/2013 2:31:38 PM
 
 BeginCmp
 TimeStamp = /4E99B63E;
@@ -676,7 +676,7 @@ BeginCmp
 TimeStamp = /4F08252F;
 Reference = J1;
 ValeurCmp = MINI;
-IdModule  = 67503;
+IdModule  = USB_MINI-B_MOLEX_67503-1020;
 EndCmp
 
 BeginCmp
@@ -746,13 +746,6 @@ BeginCmp
 TimeStamp = /525EEC78;
 Reference = P10;
 ValeurCmp = ROW4;
-IdModule  = Pad_50mil;
-EndCmp
-
-BeginCmp
-TimeStamp = /525EFFFF;
-Reference = P11;
-ValeurCmp = ROW5;
 IdModule  = Pad_50mil;
 EndCmp
 
@@ -906,14 +899,14 @@ EndCmp
 BeginCmp
 TimeStamp = /525F2099;
 Reference = P42;
-ValeurCmp = GPIO2;
+ValeurCmp = GPIO4;
 IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /525F209F;
 Reference = P43;
-ValeurCmp = GPIO3;
+ValeurCmp = GPIO5;
 IdModule  = Pad_50mil;
 EndCmp
 
@@ -925,8 +918,15 @@ IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
-TimeStamp = /51CD1E0B;
+TimeStamp = /525EFFFF;
 Reference = P45;
+ValeurCmp = GPIO7;
+IdModule  = Pad_50mil;
+EndCmp
+
+BeginCmp
+TimeStamp = /51CD1E0B;
+Reference = P46;
 ValeurCmp = GND;
 IdModule  = Pad_50mil;
 EndCmp

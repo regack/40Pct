@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/16/2013 1:34:43 PM
+EESchema Schematic File Version 2  date 10/20/2013 8:52:07 AM
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -15,11 +15,11 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 3
-Title ""
-Date "16 oct 2013"
-Rev ""
-Comp ""
-Comment1 ""
+Title "The SmallFry 40% Keyboard"
+Date "19 oct 2013"
+Rev "0.7"
+Comp "regack"
+Comment1 "jdcarpe"
 Comment2 ""
 Comment3 ""
 Comment4 ""

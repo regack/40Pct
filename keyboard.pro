@@ -1,4 +1,4 @@
-update=10/20/2013 2:49:40 PM
+update=11/22/2013 4:37:02 PM
 version=1
 last_client=pcbnew
 [general]
@@ -30,9 +30,9 @@ LibName9=usb_ports
 version=1
 LastNetListRead=keyboard.net
 UseCmpFile=1
-PadDrill=7.00024
-PadSizeH=9.99998
-PadSizeV=5.00126
+PadDrill=1.7018
+PadSizeH=1.7018
+PadSizeV=1.7018
 PcbTextSizeV=2.032
 PcbTextSizeH=1.524
 PcbTextThickness=0.3048
@@ -62,3 +62,4 @@ LibName13=lib/resistor
 LibName14=lib/SM0805
 LibName15=lib/TQFP44
 LibName16=lib/usb_ports
+LibName17=lib/CHERRY_PCB_625HRev

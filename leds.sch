@@ -1,10 +1,9 @@
-EESchema Schematic File Version 2  date 10/20/2013 8:52:07 AM
+EESchema Schematic File Version 2  date 11/23/2013 1:19:47 PM
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
 LIBS:atmega32u4
 LIBS:dtsjw
-LIBS:oupiin_usb
 LIBS:device
 LIBS:conn
 LIBS:mechanical
@@ -16,8 +15,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
 Title "The SmallFry 40% Keyboard"
-Date "19 oct 2013"
-Rev "0.7"
+Date "23 nov 2013"
+Rev "0.10"
 Comp "regack"
 Comment1 "jdcarpe"
 Comment2 ""

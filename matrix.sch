@@ -1,10 +1,9 @@
-EESchema Schematic File Version 2  date 10/20/2013 8:52:07 AM
+EESchema Schematic File Version 2  date 11/23/2013 1:19:47 PM
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
 LIBS:atmega32u4
 LIBS:dtsjw
-LIBS:oupiin_usb
 LIBS:device
 LIBS:conn
 LIBS:mechanical
@@ -16,8 +15,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 3
 Title "The SmallFry 40% Keyboard"
-Date "19 oct 2013"
-Rev "0.7"
+Date "23 nov 2013"
+Rev "0.10"
 Comp "regack"
 Comment1 "jdcarpe"
 Comment2 ""
@@ -126,12 +125,12 @@ $EndComp
 $Comp
 L MX1A S56
 U 1 1 5040DDD9
-P 11050 3350
-F 0 "S56" H 10900 3600 60  0000 C CNN
-F 1 "MX1A" H 11050 3450 60  0000 C CNN
-F 2 "" H 11050 3350 60  0001 C CNN
-F 3 "" H 11050 3350 60  0001 C CNN
-	1    11050 3350
+P 10350 7050
+F 0 "S56" H 10200 7300 60  0000 C CNN
+F 1 "MX1A" H 10350 7150 60  0000 C CNN
+F 2 "" H 10350 7050 60  0001 C CNN
+F 3 "" H 10350 7050 60  0001 C CNN
+	1    10350 7050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -515,13 +514,11 @@ Text HLabel 9900 1400 1    60   3State ~ 0
 col10
 Text HLabel 10600 1400 1    60   3State ~ 0
 col11
-Text HLabel 11300 1400 1    60   3State ~ 0
-col12
 $Comp
-L VCC #PWR030
+L VCC #PWR032
 U 1 1 5043970C
 P 12550 3550
-F 0 "#PWR030" H 12550 3650 30  0001 C CNN
+F 0 "#PWR032" H 12550 3650 30  0001 C CNN
 F 1 "VCC" H 12550 3650 30  0000 C CNN
 F 2 "" H 12550 3550 60  0001 C CNN
 F 3 "" H 12550 3550 60  0001 C CNN
@@ -1136,16 +1133,16 @@ $EndComp
 $Comp
 L DIODE D56
 U 1 1 506B5A67
-P 11050 3350
-F 0 "D56" H 10900 3300 40  0000 C CNN
-F 1 "1N4148" H 10950 3350 40  0000 C CNN
-F 2 "" H 11050 3350 60  0001 C CNN
-F 3 "" H 11050 3350 60  0001 C CNN
-F 4 "DC Components" H 5000 3350 60  0001 C CNN "Vendor"
-F 5 "CD4148WS(0805C)" H 5000 3350 60  0001 C CNN "Product"
-F 6 "TME" H 5000 3350 60  0001 C CNN "Supplier"
-F 7 "1N4148-0805" H 5000 3350 60  0001 C CNN "Supplier Symbol"
-	1    11050 3350
+P 10350 7050
+F 0 "D56" H 10200 7000 40  0000 C CNN
+F 1 "1N4148" H 10250 7050 40  0000 C CNN
+F 2 "" H 10350 7050 60  0001 C CNN
+F 3 "" H 10350 7050 60  0001 C CNN
+F 4 "DC Components" H 4300 7050 60  0001 C CNN "Vendor"
+F 5 "CD4148WS(0805C)" H 4300 7050 60  0001 C CNN "Product"
+F 6 "TME" H 4300 7050 60  0001 C CNN "Supplier"
+F 7 "1N4148-0805" H 4300 7050 60  0001 C CNN "Supplier Symbol"
+	1    10350 7050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1187,7 +1184,7 @@ Text Notes 9500 3700 0    60   ~ 0
 O
 Text Notes 10200 3700 0    60   ~ 0
 P
-Text Notes 10850 3700 0    60   ~ 0
+Text Notes 10750 3250 0    60   ~ 0
 BKSP
 Text Notes 3200 5900 0    60   ~ 0
 SHIFT
@@ -1481,11 +1478,11 @@ Wire Wire Line
 Wire Wire Line
 	10550 5400 10550 5900
 Wire Wire Line
-	10850 3350 10850 3450
+	10150 7050 10150 7150
 Wire Wire Line
-	10850 3450 11300 3450
+	10150 7150 10600 7150
 Wire Wire Line
-	11250 3350 11250 3200
+	10550 7050 10550 6900
 Connection ~ 3600 3450
 Connection ~ 4300 3450
 Connection ~ 5000 3450
@@ -1649,4 +1646,15 @@ Connection ~ 10550 5700
 Wire Wire Line
 	10550 6000 10600 6000
 Connection ~ 10600 6000
+Text Notes 10250 7400 0    60   ~ 0
+BKSP
+Wire Notes Line
+	10500 7350 11600 7350
+Wire Notes Line
+	11600 7350 11600 3200
+Wire Notes Line
+	11600 3200 11000 3200
+Connection ~ 10150 6650
+Text Notes 12750 4250 0    120  ~ 0
+S03 (CAPS) LED\n
 $EndSCHEMATC

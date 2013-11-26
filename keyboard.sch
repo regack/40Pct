@@ -1,10 +1,9 @@
-EESchema Schematic File Version 2  date 10/20/2013 8:52:07 AM
+EESchema Schematic File Version 2  date 11/23/2013 1:19:47 PM
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
 LIBS:atmega32u4
 LIBS:dtsjw
-LIBS:oupiin_usb
 LIBS:device
 LIBS:conn
 LIBS:mechanical
@@ -16,19 +15,19 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "The SmallFry 40% Keyboard"
-Date "19 oct 2013"
-Rev "0.7"
+Date "23 nov 2013"
+Rev "0.10"
 Comp "regack"
 Comment1 "jdcarpe"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 5450 4050 0    50   ~ 0
+Text Label 5400 4050 0    50   ~ 0
 SCK
-Text Label 5450 3950 0    50   ~ 0
+Text Label 5400 3950 0    50   ~ 0
 MOSI
-Text Label 5450 3850 0    50   ~ 0
+Text Label 5400 3850 0    50   ~ 0
 MISO
 Entry Wire Line
 	5300 4150 5400 4050
@@ -186,27 +185,27 @@ $EndComp
 $Comp
 L GND #PWR09
 U 1 1 4ED6AF1D
-P 5500 7650
-F 0 "#PWR09" H 5500 7650 30  0001 C CNN
-F 1 "GND" H 5500 7580 30  0001 C CNN
-F 2 "" H 5500 7650 60  0001 C CNN
-F 3 "" H 5500 7650 60  0001 C CNN
-	1    5500 7650
+P 5100 7400
+F 0 "#PWR09" H 5100 7400 30  0001 C CNN
+F 1 "GND" H 5100 7330 30  0001 C CNN
+F 2 "" H 5100 7400 60  0001 C CNN
+F 3 "" H 5100 7400 60  0001 C CNN
+	1    5100 7400
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R3
 U 1 1 4ED6AF08
-P 5500 7250
-F 0 "R3" V 5580 7250 50  0000 C CNN
-F 1 "10k" V 5500 7250 50  0000 C CNN
-F 2 "" H 5500 7250 60  0001 C CNN
-F 3 "http://www.tme.eu/pl/Document/e5152f6c2c4f933b61676f6de7ae79a8/dcrcw.pdf" H 5500 7250 60  0001 C CNN
-F 4 "Vishay" H 5500 7250 60  0001 C CNN "Vendor"
-F 5 "CRCW080510K0JNTABC" H 5500 7250 60  0001 C CNN "Product"
-F 6 "TME" H 5500 7250 60  0001 C CNN "Supplier"
-F 7 "CRCW080510K0JNTABC" H 5500 7250 60  0001 C CNN "Supplier Symbol"
-	1    5500 7250
+P 5100 7000
+F 0 "R3" V 5180 7000 50  0000 C CNN
+F 1 "10k" V 5100 7000 50  0000 C CNN
+F 2 "" H 5100 7000 60  0001 C CNN
+F 3 "http://www.tme.eu/pl/Document/e5152f6c2c4f933b61676f6de7ae79a8/dcrcw.pdf" H 5100 7000 60  0001 C CNN
+F 4 "Vishay" H 5100 7000 60  0001 C CNN "Vendor"
+F 5 "CRCW080510K0JNTABC" H 5100 7000 60  0001 C CNN "Product"
+F 6 "TME" H 5100 7000 60  0001 C CNN "Supplier"
+F 7 "CRCW080510K0JNTABC" H 5100 7000 60  0001 C CNN "Supplier Symbol"
+	1    5100 7000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -331,11 +330,11 @@ F 3 "" H 3950 2250 60  0001 C CNN
 	1    3950 2250
 	1    0    0    -1  
 $EndComp
-Text Label 4950 4050 0    50   ~ 0
+Text Label 5200 4050 2    50   ~ 0
 SCK
-Text Label 4950 3950 0    50   ~ 0
+Text Label 5200 3950 2    50   ~ 0
 MOSI
-Text Label 4950 3850 0    50   ~ 0
+Text Label 5200 3850 2    50   ~ 0
 MISO
 Entry Wire Line
 	5200 3850 5300 3950
@@ -567,8 +566,7 @@ F13 "col8" T L 7050 5250 60
 F14 "col9" T L 7050 5350 60 
 F15 "col10" T L 7050 5450 60 
 F16 "col11" T L 7050 5550 60 
-F17 "col12" T L 7050 5650 60 
-F18 "CAPS_LED" T L 7050 6100 60 
+F17 "CAPS_LED" T L 7050 6100 60 
 $EndSheet
 Entry Wire Line
 	6100 3450 6200 3550
@@ -579,25 +577,13 @@ Entry Wire Line
 Entry Wire Line
 	6100 3750 6200 3850
 Entry Wire Line
-	6100 3950 6200 4050
-Entry Wire Line
-	6100 4050 6200 4150
-Entry Wire Line
 	6100 4450 6200 4550
-Entry Wire Line
-	6100 4650 6200 4750
 Entry Wire Line
 	6100 4950 6200 5050
 Entry Wire Line
 	6100 5050 6200 5150
 Entry Wire Line
 	6100 5150 6200 5250
-Entry Wire Line
-	6100 5250 6200 5350
-Entry Wire Line
-	6100 5350 6200 5450
-Entry Wire Line
-	6100 5650 6200 5750
 Entry Wire Line
 	6100 6250 6200 6350
 Entry Wire Line
@@ -617,13 +603,13 @@ F 7 "TACTB-64K-F" H 1250 3200 60  0001 C CNN "Supplier Symbol"
 	1    1250 3200
 	0    1    1    0   
 $EndComp
-Text Label 5850 5350 0    60   ~ 0
+Text Label 6100 5150 2    60   ~ 0
 row1
-Text Label 5850 5250 0    60   ~ 0
+Text Label 6100 5050 2    60   ~ 0
 row2
-Text Label 5850 5150 0    60   ~ 0
+Text Label 6100 4950 2    60   ~ 0
 row3
-Text Label 5850 5050 0    60   ~ 0
+Text Label 6100 4850 2    60   ~ 0
 row4
 Entry Wire Line
 	6550 3950 6650 3850
@@ -647,19 +633,17 @@ Text Label 6700 4050 0    60   ~ 0
 row3
 Text Label 6700 4150 0    60   ~ 0
 row4
-Text Label 5850 6250 0    60   ~ 0
+Text Label 6100 6250 2    60   ~ 0
 col2
-Text Label 5850 6350 0    60   ~ 0
+Text Label 6100 6350 2    60   ~ 0
 col1
-Text Label 5850 5650 0    60   ~ 0
+Text Label 6100 6150 2    60   ~ 0
 col3
-Entry Wire Line
-	6100 4350 6200 4450
-Text Label 5850 4350 0    60   ~ 0
+Text Label 6100 6050 2    60   ~ 0
 col4
-Text Label 5850 4450 0    60   ~ 0
+Text Label 6100 5950 2    60   ~ 0
 col5
-Text Label 5850 3550 0    60   ~ 0
+Text Label 6100 5850 2    60   ~ 0
 col6
 Entry Wire Line
 	6550 4650 6650 4550
@@ -685,12 +669,10 @@ Text Label 6700 4950 0    60   ~ 0
 col5
 Text Label 6700 5050 0    60   ~ 0
 col6
-Text Label 5850 3650 0    60   ~ 0
+Text Label 6100 3550 2    60   ~ 0
 col10
-Text Label 5850 3750 0    60   ~ 0
+Text Label 6100 3450 2    60   ~ 0
 col11
-Text Label 5850 4650 0    60   ~ 0
-col12
 Text Label 6700 5150 0    60   ~ 0
 col7
 Text Label 6700 5250 0    60   ~ 0
@@ -703,25 +685,21 @@ Entry Wire Line
 	6550 5350 6650 5250
 Entry Wire Line
 	6550 5450 6650 5350
-Text Label 5850 3450 0    60   ~ 0
+Text Label 6100 3650 2    60   ~ 0
 col9
 Text Label 6700 5450 0    60   ~ 0
 col10
 Entry Wire Line
 	6550 5550 6650 5450
-Text Label 5850 4950 0    60   ~ 0
+Text Label 6100 3850 2    60   ~ 0
 col7
 Entry Wire Line
 	6550 5650 6650 5550
 Text Label 6700 5550 0    60   ~ 0
 col11
-Text Label 5850 4050 0    60   ~ 0
+Text Label 6100 3750 2    60   ~ 0
 col8
-Text Label 6700 5650 0    60   ~ 0
-col12
-Entry Wire Line
-	6550 5750 6650 5650
-Text Label 5850 3950 0    60   ~ 0
+Text Label 6100 4450 2    60   ~ 0
 caps
 Text Label 6700 6100 0    60   ~ 0
 caps
@@ -808,21 +786,13 @@ F 7 "CL21B104KBCNNNC" H 800 1300 60  0001 C CNN "Supplier Symbol"
 	1    800  1300
 	1    0    0    -1  
 $EndComp
-Entry Wire Line
-	5200 5850 5300 5750
-Entry Wire Line
-	5200 5950 5300 5850
-Entry Wire Line
-	5200 6050 5300 5950
-Entry Wire Line
-	5200 6150 5300 6050
-Text Label 4900 5850 0    50   ~ 0
+Text Label 5700 4650 2    50   ~ 0
 GPIO0
-Text Label 4900 5950 0    50   ~ 0
+Text Label 5700 4550 2    50   ~ 0
 GPIO1
-Text Label 4900 6050 0    50   ~ 0
+Text Label 5700 5650 2    50   ~ 0
 GPIO2
-Text Label 4900 6150 0    50   ~ 0
+Text Label 5700 4250 0    50   ~ 0
 GPIO3
 $Comp
 L VCC #PWR026
@@ -1115,14 +1085,14 @@ F 3 "" H 9600 1350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P46
+L CONN_1 P47
 U 1 1 51CD1E0B
-P 9600 1900
-F 0 "P46" H 9680 1900 40  0000 L CNN
-F 1 "GND" H 9600 1955 30  0001 C CNN
-F 2 "" H 9600 1900 60  0001 C CNN
-F 3 "" H 9600 1900 60  0001 C CNN
-	1    9600 1900
+P 9600 1950
+F 0 "P47" H 9680 1950 40  0000 L CNN
+F 1 "GND" H 9600 2005 30  0001 C CNN
+F 2 "" H 9600 1950 60  0001 C CNN
+F 3 "" H 9600 1950 60  0001 C CNN
+	1    9600 1950
 	1    0    0    -1  
 $EndComp
 Entry Wire Line
@@ -1131,15 +1101,15 @@ Entry Wire Line
 	8950 1150 9050 1050
 Entry Wire Line
 	8950 1350 9050 1250
-Text Notes 9900 1850 0    60   ~ 0
-Backlight expansion\nconnector (top)
-Text Label 9100 1050 0    50   ~ 0
+Text Notes 9900 1350 0    60   ~ 0
+Expansion\nconnector \n(right)
+Text Label 9050 1050 0    50   ~ 0
 GPIO0
-Text Label 9100 1150 0    50   ~ 0
+Text Label 9050 1150 0    50   ~ 0
 GPIO1
-Text Label 9100 1250 0    50   ~ 0
+Text Label 9050 1250 0    50   ~ 0
 GPIO2
-Text Label 9100 1350 0    50   ~ 0
+Text Label 9050 1350 0    50   ~ 0
 GPIO3
 $Comp
 L VCC #PWR027
@@ -1155,12 +1125,12 @@ $EndComp
 $Comp
 L GND #PWR028
 U 1 1 51CCCE51
-P 9350 2100
-F 0 "#PWR028" H 9350 2100 30  0001 C CNN
-F 1 "GND" H 9350 2030 30  0001 C CNN
-F 2 "" H 9350 2100 60  0001 C CNN
-F 3 "" H 9350 2100 60  0001 C CNN
-	1    9350 2100
+P 9350 2150
+F 0 "#PWR028" H 9350 2150 30  0001 C CNN
+F 1 "GND" H 9350 2080 30  0001 C CNN
+F 2 "" H 9350 2150 60  0001 C CNN
+F 3 "" H 9350 2150 60  0001 C CNN
+	1    9350 2150
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1450 3300
@@ -1314,80 +1284,58 @@ F 3 "" H 5900 2500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P204
-U 1 1 52334F1D
-P 5900 2600
-F 0 "P204" H 5980 2600 40  0000 L CNN
-F 1 "GND" H 5900 2655 30  0001 C CNN
-F 2 "" H 5900 2600 60  0001 C CNN
-F 3 "" H 5900 2600 60  0001 C CNN
-	1    5900 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P205
-U 1 1 52334F23
-P 5900 2700
-F 0 "P205" H 5980 2700 40  0000 L CNN
-F 1 "GND" H 5900 2755 30  0001 C CNN
-F 2 "" H 5900 2700 60  0001 C CNN
-F 3 "" H 5900 2700 60  0001 C CNN
-	1    5900 2700
-	1    0    0    -1  
-$EndComp
-$Comp
 L ANYTHING H1
 U 1 1 525ECF55
-P 8250 3100
-F 0 "H1" H 8250 3150 40  0000 C CNN
-F 1 "HOLE" H 8250 3050 40  0000 C CNN
-F 2 "~" H 8250 3100 60  0000 C CNN
-F 3 "~" H 8250 3100 60  0000 C CNN
-	1    8250 3100
+P 8400 4700
+F 0 "H1" H 8400 4750 40  0000 C CNN
+F 1 "HOLE" H 8400 4650 40  0000 C CNN
+F 2 "~" H 8400 4700 60  0000 C CNN
+F 3 "~" H 8400 4700 60  0000 C CNN
+	1    8400 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L ANYTHING H2
 U 1 1 525ED1BE
-P 8250 3350
-F 0 "H2" H 8250 3400 40  0000 C CNN
-F 1 "HOLE" H 8250 3300 40  0000 C CNN
-F 2 "~" H 8250 3350 60  0000 C CNN
-F 3 "~" H 8250 3350 60  0000 C CNN
-	1    8250 3350
+P 8400 4950
+F 0 "H2" H 8400 5000 40  0000 C CNN
+F 1 "HOLE" H 8400 4900 40  0000 C CNN
+F 2 "~" H 8400 4950 60  0000 C CNN
+F 3 "~" H 8400 4950 60  0000 C CNN
+	1    8400 4950
 	1    0    0    -1  
 $EndComp
 $Comp
 L ANYTHING H3
 U 1 1 525ED1C4
-P 8250 3600
-F 0 "H3" H 8250 3650 40  0000 C CNN
-F 1 "HOLE" H 8250 3550 40  0000 C CNN
-F 2 "~" H 8250 3600 60  0000 C CNN
-F 3 "~" H 8250 3600 60  0000 C CNN
-	1    8250 3600
+P 8400 5200
+F 0 "H3" H 8400 5250 40  0000 C CNN
+F 1 "HOLE" H 8400 5150 40  0000 C CNN
+F 2 "~" H 8400 5200 60  0000 C CNN
+F 3 "~" H 8400 5200 60  0000 C CNN
+	1    8400 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L ANYTHING H4
 U 1 1 525ED1CA
-P 8250 3850
-F 0 "H4" H 8250 3900 40  0000 C CNN
-F 1 "HOLE" H 8250 3800 40  0000 C CNN
-F 2 "~" H 8250 3850 60  0000 C CNN
-F 3 "~" H 8250 3850 60  0000 C CNN
-	1    8250 3850
+P 8400 5450
+F 0 "H4" H 8400 5500 40  0000 C CNN
+F 1 "HOLE" H 8400 5400 40  0000 C CNN
+F 2 "~" H 8400 5450 60  0000 C CNN
+F 3 "~" H 8400 5450 60  0000 C CNN
+	1    8400 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L ANYTHING H5
 U 1 1 525ED1D0
-P 8250 4100
-F 0 "H5" H 8250 4150 40  0000 C CNN
-F 1 "HOLE" H 8250 4050 40  0000 C CNN
-F 2 "~" H 8250 4100 60  0000 C CNN
-F 3 "~" H 8250 4100 60  0000 C CNN
-	1    8250 4100
+P 8400 5700
+F 0 "H5" H 8400 5750 40  0000 C CNN
+F 1 "HOLE" H 8400 5650 40  0000 C CNN
+F 2 "~" H 8400 5700 60  0000 C CNN
+F 3 "~" H 8400 5700 60  0000 C CNN
+	1    8400 5700
 	1    0    0    -1  
 $EndComp
 Entry Wire Line
@@ -1461,26 +1409,22 @@ L CONN_1 P45
 U 1 1 525EFFFF
 P 9600 1750
 F 0 "P45" H 9680 1750 40  0000 L CNN
-F 1 "GPIO7" H 9600 1805 30  0001 C CNN
+F 1 "GPIO7(SCL)" H 9600 1805 30  0001 C CNN
 F 2 "" H 9600 1750 60  0001 C CNN
 F 3 "" H 9600 1750 60  0001 C CNN
 	1    9600 1750
 	1    0    0    -1  
 $EndComp
-Text Label 5150 4750 2    50   ~ 0
+Text Label 5700 4150 0    50   ~ 0
 GPIO4
-Text Label 5150 4850 2    50   ~ 0
+Text Label 5700 4050 0    50   ~ 0
 GPIO5
-Entry Wire Line
-	5200 4750 5300 4850
-Entry Wire Line
-	5200 4850 5300 4950
 $Comp
 L CONN_1 P42
 U 1 1 525F2099
 P 9600 1450
 F 0 "P42" H 9680 1450 40  0000 L CNN
-F 1 "GPIO4" H 9600 1505 30  0001 C CNN
+F 1 "GPIO4(SS)" H 9600 1505 30  0001 C CNN
 F 2 "" H 9600 1450 60  0001 C CNN
 F 3 "" H 9600 1450 60  0001 C CNN
 	1    9600 1450
@@ -1491,7 +1435,7 @@ L CONN_1 P43
 U 1 1 525F209F
 P 9600 1550
 F 0 "P43" H 9680 1550 40  0000 L CNN
-F 1 "GPIO5" H 9600 1605 30  0001 C CNN
+F 1 "GPIO5(SCK)" H 9600 1605 30  0001 C CNN
 F 2 "" H 9600 1550 60  0001 C CNN
 F 3 "" H 9600 1550 60  0001 C CNN
 	1    9600 1550
@@ -1503,30 +1447,26 @@ Entry Wire Line
 	8950 1550 9050 1450
 Entry Wire Line
 	8950 1650 9050 1550
-Text Label 9100 1450 0    50   ~ 0
+Text Label 9050 1450 0    50   ~ 0
 GPIO4
-Text Label 9100 1550 0    50   ~ 0
+Text Label 9050 1550 0    50   ~ 0
 GPIO5
 Entry Wire Line
 	6100 3850 6200 3950
-Text Label 6100 3850 2    50   ~ 0
+Text Label 5700 3950 0    50   ~ 0
 GPIO6
-Text Label 6700 3550 0    50   ~ 0
-GPIO6
-Entry Wire Line
-	6550 3650 6650 3550
 $Comp
 L CONN_1 P44
 U 1 1 525F57DC
 P 9600 1650
 F 0 "P44" H 9680 1650 40  0000 L CNN
-F 1 "GPIO6" H 9600 1705 30  0001 C CNN
+F 1 "GPIO6(MOSI)" H 9600 1705 30  0001 C CNN
 F 2 "" H 9600 1650 60  0001 C CNN
 F 3 "" H 9600 1650 60  0001 C CNN
 	1    9600 1650
 	1    0    0    -1  
 $EndComp
-Text Label 9450 1650 2    50   ~ 0
+Text Label 9050 1650 0    50   ~ 0
 GPIO6
 Wire Wire Line
 	7050 5050 6650 5050
@@ -1541,8 +1481,6 @@ Wire Wire Line
 Wire Wire Line
 	6650 4550 7050 4550
 Wire Wire Line
-	4750 4350 6100 4350
-Wire Wire Line
 	7050 4150 6650 4150
 Wire Wire Line
 	6650 4050 7050 4050
@@ -1551,23 +1489,15 @@ Wire Wire Line
 Wire Wire Line
 	6650 3850 7050 3850
 Wire Wire Line
-	4750 5550 5500 5550
-Wire Wire Line
 	800  3200 1050 3200
 Wire Wire Line
 	5200 1400 4500 1400
 Wire Wire Line
 	3100 1300 3700 1300
 Wire Wire Line
-	4750 5650 6100 5650
-Wire Wire Line
-	6100 3950 5400 3950
-Wire Wire Line
 	6100 3750 4750 3750
 Wire Wire Line
 	6100 3550 4750 3550
-Wire Wire Line
-	6100 5350 4750 5350
 Wire Wire Line
 	6100 5150 4750 5150
 Wire Wire Line
@@ -1577,8 +1507,6 @@ Wire Wire Line
 Wire Wire Line
 	2250 4000 2750 4000
 Wire Wire Line
-	5500 5550 5500 7000
-Wire Wire Line
 	4700 1300 4700 1050
 Wire Wire Line
 	4500 1300 4700 1300
@@ -1587,7 +1515,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 3950 5200 3950
 Wire Wire Line
-	5500 7650 5500 7500
+	5100 7400 5100 7250
 Wire Wire Line
 	2600 6350 2600 7350
 Wire Wire Line
@@ -1691,17 +1619,11 @@ Wire Wire Line
 Wire Wire Line
 	1900 4250 1900 4450
 Wire Wire Line
-	4750 4650 6100 4650
-Wire Wire Line
 	4750 5050 6100 5050
-Wire Wire Line
-	4750 5250 6100 5250
 Wire Wire Line
 	4750 3450 6100 3450
 Wire Wire Line
 	4750 3650 6100 3650
-Wire Wire Line
-	6100 4050 5400 4050
 Wire Wire Line
 	4750 4450 6100 4450
 Wire Wire Line
@@ -1721,8 +1643,6 @@ Wire Wire Line
 Wire Wire Line
 	7050 5550 6650 5550
 Wire Wire Line
-	7050 5650 6650 5650
-Wire Wire Line
 	6650 6100 7050 6100
 Wire Wire Line
 	800  900  800  1100
@@ -1733,15 +1653,13 @@ Wire Wire Line
 Wire Wire Line
 	4750 6350 6100 6350
 Wire Wire Line
-	4750 5850 5200 5850
+	4750 5850 6100 5850
 Wire Wire Line
-	5200 5950 4750 5950
+	4750 5950 6100 5950
 Wire Wire Line
-	5200 6050 4750 6050
+	4750 6050 6100 6050
 Wire Wire Line
-	5200 6150 4750 6150
-Wire Bus Line
-	5300 4250 5300 6800
+	4750 6150 6100 6150
 Wire Bus Line
 	8950 900  8950 6800
 Wire Bus Line
@@ -1798,8 +1716,6 @@ Wire Bus Line
 	6200 6500 6200 3300
 Wire Bus Line
 	6550 2950 6550 6500
-Wire Bus Line
-	8950 6800 5300 6800
 Wire Wire Line
 	9450 1050 9050 1050
 Wire Wire Line
@@ -1813,9 +1729,9 @@ Wire Wire Line
 Wire Wire Line
 	9350 950  9450 950 
 Wire Wire Line
-	9350 1900 9350 2100
+	9350 1950 9350 2150
 Wire Wire Line
-	9350 1900 9450 1900
+	9350 1950 9450 1950
 Wire Wire Line
 	10850 3050 10850 5850
 Wire Wire Line
@@ -1864,12 +1780,6 @@ Wire Wire Line
 	5750 2500 5650 2500
 Connection ~ 5650 2500
 Wire Wire Line
-	5650 2700 5750 2700
-Connection ~ 5650 2700
-Wire Wire Line
-	5750 2600 5650 2600
-Connection ~ 5650 2600
-Wire Wire Line
 	7050 3350 6650 3350
 Wire Wire Line
 	6650 3250 7050 3250
@@ -1878,41 +1788,200 @@ Wire Wire Line
 Wire Wire Line
 	6650 3050 7050 3050
 Wire Wire Line
-	5200 4750 4750 4750
-Wire Wire Line
-	4750 4850 5200 4850
-Wire Wire Line
-	4750 4950 5150 4950
-Wire Wire Line
-	5150 4950 5150 5000
-Wire Wire Line
-	5150 5000 5450 5000
-Wire Wire Line
-	5450 5000 5450 4950
-Wire Wire Line
-	5450 4950 6100 4950
+	4750 4950 6100 4950
 Wire Wire Line
 	9450 1450 9050 1450
 Wire Wire Line
 	9050 1550 9450 1550
 Wire Wire Line
 	5400 3850 6100 3850
-Wire Wire Line
-	6700 3550 6650 3550
-Wire Wire Line
-	4750 4150 4850 4150
-Wire Wire Line
-	4850 4150 4850 4200
-Wire Wire Line
-	4850 4200 5200 4200
-Entry Wire Line
-	5200 4200 5300 4300
-Text Label 9100 1750 0    50   ~ 0
+Text Label 9050 1750 0    50   ~ 0
 GPIO7
 Wire Wire Line
 	9050 1750 9450 1750
 Entry Wire Line
 	8950 1850 9050 1750
-Text Label 5200 4200 2    50   ~ 0
+Text Label 5700 5350 2    50   ~ 0
 GPIO7
+$Comp
+L CONN_1 P46
+U 1 1 526E9910
+P 9600 1850
+F 0 "P46" H 9680 1850 40  0000 L CNN
+F 1 "GPIO8(SDA)" H 9600 1905 30  0001 C CNN
+F 2 "" H 9600 1850 60  0001 C CNN
+F 3 "" H 9600 1850 60  0001 C CNN
+	1    9600 1850
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	8950 1750 9050 1650
+Entry Wire Line
+	8950 1950 9050 1850
+Wire Wire Line
+	9450 1850 9050 1850
+Wire Wire Line
+	9050 1650 9450 1650
+Wire Bus Line
+	5800 3800 5800 6800
+Wire Bus Line
+	5800 6800 8950 6800
+Text Notes 4750 3550 2    60   ~ 0
+PWM
+Text Notes 4750 3650 2    60   ~ 0
+PWM
+Text Notes 4750 4650 2    60   ~ 0
+PWM
+Text Notes 4750 4750 2    60   ~ 0
+PWM
+Text Notes 4750 4450 2    60   ~ 0
+PWM
+Text Notes 4750 4350 2    60   ~ 0
+PWM
+Text Notes 4750 3450 2    60   ~ 0
+PWM
+Text Notes 4750 5350 2    60   ~ 0
+PWM
+Text Label 4750 5250 0    50   ~ 0
+SDA
+Text Label 4750 5350 0    50   ~ 0
+SCL
+Entry Wire Line
+	6100 4850 6200 4950
+Wire Wire Line
+	6100 4850 4750 4850
+Entry Wire Line
+	6100 5950 6200 6050
+Entry Wire Line
+	6100 6050 6200 6150
+Entry Wire Line
+	6100 6150 6200 6250
+Entry Wire Line
+	6100 5850 6200 5950
+Text Label 5700 5250 2    50   ~ 0
+GPIO8
+Entry Wire Line
+	5700 5250 5800 5350
+Entry Wire Line
+	5700 5350 5800 5450
+Entry Wire Line
+	5700 5650 5800 5750
+Entry Wire Line
+	5700 4550 5800 4650
+Entry Wire Line
+	5700 4650 5800 4750
+Wire Wire Line
+	5700 4550 5000 4550
+Wire Wire Line
+	5000 4550 5000 4650
+Wire Wire Line
+	5000 4650 4750 4650
+Wire Wire Line
+	4750 4750 5100 4750
+Wire Wire Line
+	5100 4750 5100 4650
+Wire Wire Line
+	5100 4650 5700 4650
+Wire Wire Line
+	5100 5550 5100 6750
+Wire Wire Line
+	5100 5550 4750 5550
+Wire Wire Line
+	5700 5650 4750 5650
+Wire Wire Line
+	4750 5350 5700 5350
+Wire Wire Line
+	5700 5250 4750 5250
+Entry Wire Line
+	5700 4150 5800 4250
+Entry Wire Line
+	5700 4050 5800 4150
+Entry Wire Line
+	5700 3950 5800 4050
+Wire Wire Line
+	5700 3950 5400 3950
+Wire Wire Line
+	5400 4050 5700 4050
+Wire Wire Line
+	5700 4150 5400 4150
+Wire Wire Line
+	5400 4150 5400 4250
+Wire Wire Line
+	5400 4250 5200 4250
+Wire Wire Line
+	5200 4250 5200 4150
+Wire Wire Line
+	5200 4150 4750 4150
+Text Label 4750 4150 0    50   ~ 0
+SS
+Entry Wire Line
+	5700 4250 5800 4350
+Wire Wire Line
+	5700 4250 5500 4250
+Wire Wire Line
+	5500 4250 5500 4350
+Wire Wire Line
+	5500 4350 4750 4350
+Text Label 9050 1850 0    50   ~ 0
+GPIO8
+Text Notes 5950 1150 0    60   ~ 0
+LED Matrix\n(top)
+Text Notes 7450 3150 0    60   ~ 0
+Expansion\nconnector \n(right)
+Text Notes 8200 4450 0    60   ~ 0
+Mounting\nHoles
+Text Notes 5600 2100 0    60   ~ 0
+Ground Pins
+Text Notes 3900 1200 0    60   ~ 0
+ISP Pins
+$Comp
+L CONN_1 P35
+U 1 1 528FE2CB
+P 8300 2300
+F 0 "P35" H 8380 2300 40  0000 L CNN
+F 1 "LGND" H 8300 2355 30  0001 C CNN
+F 2 "" H 8300 2300 60  0001 C CNN
+F 3 "" H 8300 2300 60  0001 C CNN
+	1    8300 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR030
+U 1 1 528FE3F1
+P 8150 2400
+F 0 "#PWR030" H 8150 2500 30  0001 C CNN
+F 1 "VCC" H 8150 2500 30  0000 C CNN
+F 2 "" H 8150 2400 60  0001 C CNN
+F 3 "" H 8150 2400 60  0001 C CNN
+	1    8150 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR031
+U 1 1 528FE3F7
+P 8150 2300
+F 0 "#PWR031" H 8150 2300 30  0001 C CNN
+F 1 "GND" H 8150 2230 30  0001 C CNN
+F 2 "" H 8150 2300 60  0001 C CNN
+F 3 "" H 8150 2300 60  0001 C CNN
+	1    8150 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_1 P36
+U 1 1 528FE4C7
+P 8300 2400
+F 0 "P36" H 8380 2400 40  0000 L CNN
+F 1 "LVcc" H 8300 2455 30  0001 C CNN
+F 2 "" H 8300 2400 60  0001 C CNN
+F 3 "" H 8300 2400 60  0001 C CNN
+	1    8300 2400
+	1    0    0    -1  
+$EndComp
+Text Notes 8050 2550 0    60   ~ 0
+LED Matrix\n(top)
+Text Notes 9750 5050 0    60   ~ 0
+WASD Cluster LEDs\n
+Text Notes 9600 3150 0    60   ~ 0
+SW01  LED (ESCAPE)\n
 $EndSCHEMATC
